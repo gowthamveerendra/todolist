@@ -23,19 +23,19 @@
     {
       "id": "adea",
       "todo": "learn core java",
-      "is_completed": false,
+      "is_completed": true,
       "user_id": "dc25"
     },
     {
       "id": "537b",
       "todo": "learn js",
-      "is_completed": false,
+      "is_completed": true,
       "user_id": "dc25"
     },
     {
       "id": "cae1",
       "todo": "learn react",
-      "is_completed": false,
+      "is_completed": true,
       "user_id": "dc25"
     },
     {
