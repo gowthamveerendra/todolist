@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "dc25",
+      "username": "gowtham",
+      "email": "gowthamveerendra7@gmail.com",
+      "password": "gowtham26"
+    },
+    {
+      "id": "6e94",
+      "username": "raj",
+      "email": "raj@gmail.com",
+      "password": "raj123"
+    },
+    {
+      "id": "0299",
+      "username": "raghav",
+      "email": "raghav@gmail.com",
+      "password": "raghav"
+    }
+  ],
+  "todos": [
+    {
+      "id": "adea",
+      "todo": "learn core java",
+      "is_completed": false,
+      "user_id": "dc25"
+    },
+    {
+      "id": "537b",
+      "todo": "learn js",
+      "is_completed": false,
+      "user_id": "dc25"
+    },
+    {
+      "id": "cae1",
+      "todo": "learn react",
+      "is_completed": false,
+      "user_id": "dc25"
+    },
+    {
+      "id": "0785",
+      "todo": "cleaning",
+      "is_completed": true,
+      "user_id": "0299"
+    },
+    {
+      "id": "ceac",
+      "todo": "lean",
+      "is_completed": false,
+      "user_id": "0299"
+    }
+  ]
+}

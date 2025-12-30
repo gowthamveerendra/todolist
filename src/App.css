@@ -1,0 +1,393 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+/* Reset default browser margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ensure body takes full width */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+
+  /* optional */
+}
+
+/* Remove margin from h2 in all pages */
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  margin-left: auto;
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #d32f2f;
+}
+
+.add-todo {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+}
+
+.add-todo input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-todo button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-todo button:hover {
+  background-color: #45a049;
+}
+
+.todo-list {
+  margin: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item span {
+  font-size: 16px;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.todo-item button.complete {
+  background-color: #4caf50;
+  color: white;
+}
+
+.todo-item button.undo {
+  background-color: #ff9800;
+  color: white;
+}
+
+.todo-item button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.todo-item button:hover {
+  opacity: 0.9;
+}
+
+h2 {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #333;
+}
+/* Completed Component Styling */
+
+.completed-todos-container {
+  margin: 0px;
+  padding: 0;
+}
+
+.completed-todos-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item span {
+  font-size: 16px;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.todo-item button.undo {
+  background-color: #ff9800;
+  color: white;
+}
+
+.todo-item button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+/* .todo-item button:hover {
+  opacity: 0.9;
+} */
+
+/* Optional: Add some spacing for empty state */
+/* .completed-todos-container p {
+  font-size: 16px;
+  color: #555;
+} */
+/* Pending Component Styling */
+
+/* .pending-todos-container {
+  margin: 20px;
+} */
+
+/* .pending-todos-container h2 {
+  color: #333;
+  margin-bottom: 10px;
+} */
+
+/* .todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+
+/* .todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+} */
+
+/* .todo-item span {
+  font-size: 16px;
+} */
+
+/* .todo-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+} */
+
+/* .todo-item button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+} */
+
+/* .todo-item button.complete {
+  background-color: #4caf50;
+  color: white;
+} */
+
+/* .todo-item button.delete {
+  background-color: #f44336;
+  color: white;
+} */
+
+/* .todo-item button:hover {
+  opacity: 0.9;
+} */
+
+/* Optional: Empty state message styling */
+/* .pending-todos-container p {
+  font-size: 16px;
+  color: #555;
+} */
+/* Login Page Styling */
+
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-container input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+/* Register link styled as button */
+.login-container .register-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-container .register-link:hover {
+  background-color: #1976d2;
+}
+/* Register Page Styling */
+
+.register-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-container input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register-container button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-container button:hover {
+  background-color: #45a049;
+}
+
+/* Login link styled as button */
+.register-container .login-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-container .login-link:hover {
+  background-color: #1976d2;
+}
